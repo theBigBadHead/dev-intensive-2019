@@ -3,6 +3,7 @@ package ru.skillbranch.devintensive.extensions
 import android.text.format.DateFormat
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.time.minutes
 
 const val SECOND = 1000L
 const val MINUTE = 60 * SECOND
@@ -33,6 +34,7 @@ enum class TimeUnits{
 }
 
 fun Date.humanizeDiff(date:Date = Date()): String{
+    var dr = Date()
 
     return "lol"
     }
