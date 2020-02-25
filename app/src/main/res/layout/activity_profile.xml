@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".ui.profile.ProfileActivity">
+    android:orientation="vertical">
+    <!--tools:context=".ui.profile.ProfileActivity"> -->
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -72,13 +72,13 @@
             </TextView>
 
             <TextView
-                style="@style/Profile.Header.Rank"
                 android:id="@+id/tv_rank"
+                style="@style/Profile.Header.Rank"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tv_nick_name"
                 android:layout_centerHorizontal="true"
-                android:text="Junior android Developer">
+                android:text="Android Dev">
 
             </TextView>
         </RelativeLayout>
